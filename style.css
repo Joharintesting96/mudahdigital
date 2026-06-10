@@ -1,0 +1,117 @@
+/* General Mobile Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Blue Section */
+.hero {
+    background-color: #0b5ed7; /* Deep Blue for Trust */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 24px; /* Large, clear heading for phone users */
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+/* Massive Green WhatsApp Button */
+.cta-btn {
+    display: inline-block;
+    background-color: #198754; /* WhatsApp Green */
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+    width: 100%; /* Spans full width on phone screen so it's easy to press */
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Service Menu Cards */
+.services {
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.card .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #0b5ed7;
+    margin-bottom: 8px;
+}
+
+/* Pricing Box */
+.pricing {
+    padding: 20px;
+    text-align: center;
+}
+
+.price-box {
+    background: white;
+    border: 2px solid #0b5ed7;
+    border-radius: 12px;
+    padding: 25px 20px;
+    margin-top: 15px;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin: 15px 0;
+}
+
+.price span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.price-box ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
+.price-box li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* Footer Guarantee */
+footer {
+    background: #e9ecef;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
